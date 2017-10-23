@@ -1,0 +1,89 @@
+<ion-view title="Ordina" hide-nav-bar="true" hide-back-button="true" id="page1">
+    <ion-content padding="true" class="manual-ios-statusbar-padding">
+        <div>
+            <img src="img/qqAM0p6QFyf2evyrGGwe_nuovo_artigianale_vuoto.png" width="100%" height="auto"
+                 style="display: block; margin-left: auto; margin-right: auto;">
+        </div>
+        <form id="ordina-form1"
+              class="list"
+              method="POST"
+              action="https://formspree.io/miderose@gmail.com">
+
+            <div class="spacer" style="width: 300px; height: 24px;"></div>
+
+            <div id="ordina-markdown1" style="color:#000000;text-align:center;">
+                <p>
+                    <strong>corNTTi</strong>- Ordina i tuoi cornettini e ricevili direttamente in ufficio! :)
+                </p>
+            </div>
+
+            <div class="spacer" style="width: 300px; height: 13px;"></div>
+
+            <label class="item item-input"
+                   id="ordina-input7">
+                <span class="input-label">Quanti?</span>
+                <input type="number"
+                       name="Quanti"
+                       placeholder="50">
+            </label>
+
+            <label class="item item-input" id="ordina-input6">
+                <span class="input-label">Quando?</span>
+                <input type="date"
+                       name="Quando"
+                       placeholder="Data consegna">
+            </label>
+
+            <div class="spacer" style="width: 300px; height: 18px;"></div>
+
+            <div id="ordina-markdown2" style="color:#000000;font-size:18px;text-align:right;">
+                <p>
+                    <strong>Costo cadauno:</strong>€ 0,50
+                </p>
+
+                <p>
+                    <strong>Totale spesa:</strong>€ 60,00
+                </p>
+            </div>
+
+            <div class="spacer" style="width: 300px; height: 40px;"></div>
+
+            <div id="ordina-markdown3" style="color:#000000;">
+                <p>...e, infine:
+                    <strong>Chi sei</strong>?
+                </p>
+            </div>
+
+            <label class="item item-input" id="ordina-input4" name="nome">
+                <span class="input-label">Nome</span>
+                <input type="text"
+                       name="Nome"
+                       placeholder="Nome e cognome">
+            </label>
+
+            <label class="item item-input" id="ordina-input3" name="telefono">
+                <span class="input-label">Telefono</span>
+                <input type="tel"
+                       name="tel"
+                       placeholder="Telefono">
+            </label>
+
+            <label class="item item-input" id="ordina-input5" name="email">
+                <span class="input-label">E-mail</span>
+                <input type="email"
+                       name="_replyto"
+                       placeholder="email">
+            </label>
+
+            <label class="item item-input" id="ordina-textarea2" name="note">
+                <span class="input-label">Note</span><textarea placeholder="note"></textarea>
+            </label>
+
+            <button id="ordina-button1"
+                    type="submit"
+                    class="button button-balanced  button-block icon-left ion-android-done">Invia
+            </button>
+          <input type="hidden" name="_subject" value="Ordine corNTTi" />
+        </form>
+    </ion-content>
+</ion-view>
